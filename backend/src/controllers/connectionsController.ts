@@ -15,7 +15,7 @@ export default class ConnectionsController {
 
         const { total } = totalConnections[0];
 
-        return res.json({ total })
+        res.json({ total })
 
     }
 }
